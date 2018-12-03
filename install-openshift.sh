@@ -3,7 +3,7 @@
 ## see: https://youtu.be/aqXSbDZggK4
 
 ## Default variables to use
-export INTERACTIVE=${INTERACTIVE:="true"}
+export INTERACTIVE=${INTERACTIVE:="false"}
 export PVS=${INTERACTIVE:="false"}
 export DOMAIN=${DOMAIN:="$(curl -s ipinfo.io/ip).nip.io"}
 export USERNAME=${USERNAME:="$(whoami)"}
