@@ -4,7 +4,7 @@
 
 ## Default variables to use
 export INTERACTIVE=${INTERACTIVE:="false"}
-export PVS=${INTERACTIVE:="false"}
+export PVS=${INTERACTIVE:="true"}
 export DOMAIN=${DOMAIN:="$(curl -s ipinfo.io/ip).nip.io"}
 export USERNAME=${USERNAME:="$(whoami)"}
 export PASSWORD=${PASSWORD:=password}
